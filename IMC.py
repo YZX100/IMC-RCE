@@ -43,7 +43,8 @@ def start():
 
 '''
     print(logo)
-
+    print("wirten by YZX100")
+    
 def main():
     parser = argparse.ArgumentParser(description="H46-2H3C-iMC智能管理中心-RCE")
     parser.add_argument('-u', type=str, help='检测单个url')
